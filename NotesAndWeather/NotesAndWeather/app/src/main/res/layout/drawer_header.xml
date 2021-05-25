@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/white"
+
+    android:layout_height="250dp">
+
+   <com.github.florent37.shapeofview.shapes.ArcView
+       android:layout_width="match_parent"
+
+       android:id="@+id/arcView"
+       android:layout_height="match_parent"
+
+       app:shape_arc_cropDirection="outside"
+       app:shape_arc_height="20dp"
+       app:shape_arc_position="bottom">
+
+
+       <RelativeLayout
+           android:background="?attr/colorPrimary"
+           android:layout_width="match_parent"
+           android:layout_height="match_parent">
+
+
+
+
+          <TextView
+              android:layout_margin="10dp"
+              android:id="@+id/id"
+              android:text="Mom's Time"
+              android:textStyle="bold"
+                android:textSize="40sp"
+               android:fontFamily="@font/regular"
+              android:textColor="@color/white"
+              android:layout_centerInParent="true"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content">
+
+          </TextView>
+       </RelativeLayout>
+
+<!--   <View-->
+<!--       android:layout_alignParentBottom="true"-->
+<!--       android:background="#999292"-->
+<!--       android:layout_width="match_parent"-->
+<!--       android:layout_height="0.1dp"></View>-->
+
+   </com.github.florent37.shapeofview.shapes.ArcView>
+
+
+</RelativeLayout>

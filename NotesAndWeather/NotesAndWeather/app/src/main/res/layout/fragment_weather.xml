@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".Fragments.WeatherFrag">
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cCv"
+        android:layout_margin="20dp"
+        app:cardBackgroundColor="@color/white"
+        app:cardCornerRadius="10dp"
+        android:elevation="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/locIv"
+                android:src="@drawable/location"
+                android:layout_width="40dp"
+                android:layout_height="40dp">
+
+
+            </ImageView>
+
+            <TextView
+                android:text="City"
+                android:textSize="22sp"
+                android:textColor="@color/black"
+                android:layout_toRightOf="@id/locIv"
+                android:layout_marginLeft="15dp"
+                android:layout_centerVertical="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+            </TextView>
+
+
+            <TextView
+                android:id="@+id/cTv"
+                android:text="UK"
+                android:layout_alignParentRight="true"
+                android:textSize="20sp"
+                android:textColor="@color/black"
+               android:maxLength="18"
+                android:layout_marginRight="15dp"
+                android:layout_centerVertical="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+            </TextView>
+
+
+
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/tCv"
+        android:layout_below="@id/cCv"
+        android:layout_margin="20dp"
+        app:cardBackgroundColor="@color/white"
+        app:cardCornerRadius="10dp"
+        android:elevation="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/tIv"
+                android:src="@drawable/tempicon"
+                android:layout_width="40dp"
+                android:layout_height="40dp">
+
+
+            </ImageView>
+
+            <TextView
+                android:text="Temperature"
+                android:textSize="22sp"
+                android:textColor="@color/black"
+
+                android:layout_toRightOf="@id/tIv"
+                android:layout_marginLeft="15dp"
+                android:layout_centerVertical="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+            </TextView>
+
+
+            <TextView
+                android:id="@+id/tTv"
+                android:text="36 Ded C"
+                android:layout_alignParentRight="true"
+                android:textSize="20sp"
+                android:textColor="@color/black"
+                android:layout_marginRight="15dp"
+                android:layout_centerVertical="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+            </TextView>
+
+
+
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/dCv"
+        android:layout_below="@id/tCv"
+        android:layout_margin="20dp"
+        app:cardBackgroundColor="@color/white"
+        app:cardCornerRadius="10dp"
+        android:elevation="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/dIv"
+                android:src="@drawable/desc"
+                android:layout_width="40dp"
+                android:layout_height="40dp">
+
+
+            </ImageView>
+
+            <TextView
+                android:text="Desciption"
+                android:textSize="22sp"
+                android:textColor="@color/black"
+
+                android:layout_toRightOf="@id/dIv"
+                android:layout_marginLeft="15dp"
+                android:layout_centerVertical="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+            </TextView>
+
+
+            <TextView
+                android:id="@+id/dTv"
+                android:text="Clear"
+                android:layout_alignParentRight="true"
+                android:textSize="20sp"
+                android:textColor="@color/black"
+
+                android:layout_marginRight="15dp"
+                android:layout_centerVertical="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+            </TextView>
+
+
+
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/hCv"
+        android:layout_below="@id/dCv"
+        android:layout_margin="20dp"
+        app:cardBackgroundColor="@color/white"
+        app:cardCornerRadius="10dp"
+        android:elevation="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/hIv"
+                android:src="@drawable/hum"
+                android:layout_width="40dp"
+                android:layout_height="40dp">
+
+
+            </ImageView>
+
+            <TextView
+                android:text="Humidity"
+                android:textSize="22sp"
+                android:textColor="@color/black"
+
+                android:layout_toRightOf="@id/hIv"
+                android:layout_marginLeft="15dp"
+                android:layout_centerVertical="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+            </TextView>
+
+
+            <TextView
+                android:id="@+id/hTv"
+                android:text="0 %"
+                android:layout_alignParentRight="true"
+                android:textSize="20sp"
+                android:textColor="@color/black"
+
+                android:layout_marginRight="15dp"
+                android:layout_centerVertical="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+            </TextView>
+
+
+
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+
+
+
+
+
+
+
+
+
+
+
+</RelativeLayout>

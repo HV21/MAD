@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+ <group android:checkableBehavior="single">
+
+     <item android:id="@+id/notes"
+         android:title="Notes"
+         android:icon="@drawable/ic_baseline_note_24"
+         >
+
+     </item>
+
+     <item android:id="@+id/schedules"
+         android:title="Schedules"
+         android:icon="@drawable/ic_baseline_schedule_24">
+
+     </item>
+
+     <item android:id="@+id/remind"
+         android:title="Reminders"
+         android:icon="@drawable/ic_baseline_access_alarm_24"></item>
+
+     <item android:id="@+id/weather"
+         android:title="Local Weather"
+         android:icon="@drawable/weather"
+         >
+
+     </item>
+
+
+
+ </group>
+</menu>

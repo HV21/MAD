@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Moms Time</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="map_key" translatable="false">AIzaSyB_qsP8AOP_P0MdlPz-48TDaJYjTP3vbjo</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">AIzaSyDwKH1TyAWANYD7-zyQtzkoPM-sN2J5eCo</string>
+</resources>
